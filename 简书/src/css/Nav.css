@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover,a:active{
+    color: #fff;
+}
+.header{
+    min-width: 768px;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 58px;
+    background-color: #fff;
+    border-bottom: 1px solid #e7e7e7;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.header>img{
+    float: left;
+    height: 56px;
+    width: 100px;
+    cursor: pointer;
+}
+.write{
+    float: right;
+    width: 100px;
+    height: 40px;
+    line-height: 24px;
+    margin: 8px 12px 0;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #ea6f5a;
+    text-align: center;
+    line-height: 40px;
+}
+.iconyumaobi{
+    color: white;
+    margin-right: 3px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+.user{
+    float: right;
+    height: 100%;
+    width: 80px;
+}
+.user:hover{
+    background-color: #f5f5f5
+}
+.user:hover .user-menu{
+    display: block;
+}
+.headimg{
+    width: 40px;
+    height: 40px;
+    margin: 8px 24px 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+.user-head{
+    width: 80px;
+    height: 40px;
+    position: relative;
+}
+.sjx{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #999;
+}
+.user-menu{
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    background-color:#fff;
+    border: 1px solid rgba(0,0,0,.15);
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    margin-top: 0;
+}
+.user-menu>li{
+    height: 51px;
+    line-height: 20px;
+}
+.user-menu>li:hover{
+    background-color: #f5f5f5;
+}
+.user-menu>li>a{
+    padding: 10px 20px;
+    line-height: 50px;
+    color: #333;
+    white-space: nowrap;
+}
+.user-menu>li>a>i{
+    margin-right: 15px;
+    font-size: 18px;
+    color: #ea6f5a;
+    vertical-align: middle;
+}
+.red{
+    float: right;
+    height: 55px;
+    padding: 15px 0px;
+    margin: 0 12px;
+    cursor: pointer;
+}
+.red>img{
+    height: 25px;
+}
+.an{
+    float: right;
+    cursor: pointer;
+}
+.an>span{
+    float: right;
+    line-height: 20px;
+    padding: 17px 10px;
+    font-size: 20px;
+    color: #969696;
+}
+.input{
+    position: relative;
+    width: 170px;
+    height: 38px;
+}
+.serach{
+    background: none;
+    outline: none;
+    border: none;
+    position: absolute;
+    padding: 0 40px 0 20px;
+    width: 160px;
+    height: 38px;
+    font-size: 14px;
+    border: 1px solid #eee;
+    border-radius: 40px;
+    background: #eee;
+    float: left;
+    top: 9px;
+    margin-left: 28px;
+}
+.iconsousuo{
+    position: absolute;
+    top: 20px;
+    left: 570px;
+    width: 30px;
+    height: 30px!important;
+    line-height: normal!important;
+    padding: 0!important;
+    color: #969696!important;
+    text-align: center;
+    cursor: pointer;
+}
+.menu{
+    display: block;
+    float: left;
+    padding-left: 100px;
+}
+.menu>li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    height: 56px;
+    width: 64px;
+}
+.menu>li>a{
+    color: #333;
+    line-height: 56px;
+    padding: 15px;
+    font-size: 17px;
+}
+.menu>li:hover{
+    background-color: #f5f5f5;
+}
+.menu>li>a:hover{
+    color: #ea6f5a!important;
+}
