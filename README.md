@@ -1,2 +1,2 @@
-# react-practice
-react练习项目
+简书
+反应练习项目
